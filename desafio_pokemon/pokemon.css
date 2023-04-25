@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(194, 247, 116);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 350%;
+}
+.caixa_pokemon{
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 1%;
+    box-shadow: 5px 5px 5px darkblue;
+}
+.caixa_pokemon:hover{
+    transform: translateY(-10%);
+    transform: scale(1.3);
+}
+.caixa_pokemon img:hover{
+    transform: scale(1.5);
+}
+.mostra_pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.mostra_pokemon input{
+    border-radius: 10px;
+    padding: 1% 0 1% 0;
+    border: none;
+    /* margin: 2%; */
+    box-shadow: 2px 2px 2px gray;
+    font-size: 100%;
+    text-align: center;
+}
+.mostra_pokemon button{
+    padding: 1% 3% 1% 3%;
+    background-color: rgb(114, 231, 192);
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20rem;
+    height: 25rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px black;
+    margin: 0 0 3% 0;
+}
+.card img{
+    transform: scale(1.4);
+}
+.card span{
+    font-size: 150%;
+}
